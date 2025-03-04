@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/icon.png" type="image/x-icon">
+  <title>Acesso do colaborador - Instituto Gabryelle Duarte</title>
+  
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet " href="../css/logout.css">
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+ <script src="../script/l.js" defer></script>
+  </head>
+  <body>
+      <div class="login-container">
+        <img src="../images/logo.png" alt="Logo do Instituto" class="logo">
+        <h1>Acesso do colaborador - Instituto Gabryelle Duarte</h1>
+        <div class="form-group">
+          <label for="colaboradoraId">ID de Colaboradora</label>
+          <input type="text" id="colaboradoraId" placeholder="Digite seu ID">
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" placeholder="Digite sua senha">
+        </div>
+        <button onclick="login()">Entrar</button>
+        <div id="errorMessage" class="error-message"></div>
+      </div>
+  </body>
+</html>

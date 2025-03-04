@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Gabryelle Duarte -Biblioteca</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="css/style.css">
+  <link rel="icon" href="images/icon.png" type="image/x-icon">
+ <script src="script/index.js" defer></script>
+</head>
+<body>
+
+<header>
+  <img src="images/logo.png"  alt="Logo" class="logo">
+  
+  <div class="search-bar">
+    <input type="text" placeholder="Pesquisar alunos...">
+  </div>
+  
+  <div class="admin-profile" onclick="toggleAdminMenu()">
+    <img src="images/admin.png" alt="Admin">
+    <div id="adminMenu" class="admin-menu">
+      <a href="htmls/meucadastro.html" href="#">Meu Cadastro</a>
+      <a href="htmls/logout.html" href="#">Sair</a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <!-- Barra lateral -->
+  <div class="sidebar">
+    <a href= "htmls/cadastro.html" href="#">Cadastro de Alunos</a>
+  </div>
+  
+  <!-- Conteúdo principal -->
+  <div class="content">
+    <h1>Biblioteca Institucional- Instituto Gabryelle Duarte</h1>
+    <h2>Lista de Alunos</h2>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Data de nascimento</th>
+        <th>Telefone</th>
+        <th>Email</th>
+        <th>Ações</th>
+      </tr>
+      <tr>
+        <td>
+          <a href="htmls/editar.html">
+            <button >Editar</button>
+          </a>
+          <button>Excluir</button>
+        </td>
+      </tr>
+      
+    </table>
+  </div>
+</div>
+
+</body>
+</html>

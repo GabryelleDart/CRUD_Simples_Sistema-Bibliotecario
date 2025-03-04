@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header fixo no topo e largura total */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #c1f0f0;
+  border-bottom: 2px solid #ffd670;
+  width: 100%; /* Para cobrir toda a largura da tela */
+  position: fixed; /* Para fixar no topo */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Mantém o header acima do conteúdo */
+}
+.link-home {
+  margin-left: 20px; /* Espaço entre o título e o link */
+  font-size: 16px; /* Tamanho da fonte */
+  text-decoration: none; /* Remove o sublinhado */
+  color: #1d80a1; /* Azul claro */
+}
+
+/* Body configurado para layout padrão */
+body {
+  background-color: #88c0c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Organiza o header e o conteúdo em coluna */
+  padding-top: 80px; /* Espaço para o header fixo */
+}
+
+/* Estilos do container de perfil */
+.perfil-container {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #ffd670;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  margin-top: 20px; /* Espaço abaixo do header fixo */
+}
+
+.foto-container {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.foto-grande {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #ffd670;
+  margin-bottom: 10px;
+}
+
+.dados-container {
+  flex: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+}
+
+p {
+  margin: 8px 0;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #88c0c0;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+button:hover {
+  background-color: #66a8a8;
+}
+.edidado{
+  display: inline-block;
+  margin: 10px auto;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #88c0c0;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
