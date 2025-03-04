@@ -55,7 +55,7 @@ https://github.com/user-attachments/assets/99f6b438-ea88-45da-a1b5-8f199feb6804
 Para acessar este projeto em seu ambiente local, siga as instruções abaixo:
 
 1. Clone o repositório
-` git clone` https://github.com/Compass-pb-aws-2024-OUTUBRO/sprint-1-pb-aws-outubro/tree/gabryelle-duarte ;
+` git clone` ;
 
 3. Abra o arquivo HTML principal;
 4. Visualize o projeto;
