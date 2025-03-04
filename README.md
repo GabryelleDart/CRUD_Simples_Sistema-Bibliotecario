@@ -1,4 +1,4 @@
-## Avaliação Sprint 1 - Programa de Bolsas Compass UOL  AWS - turma outubro/2024
+## Sistema Bibliotecário - Operações CRUD
 
 ![Identidade visual do projeto(Logo)](https://github.com/user-attachments/assets/8460c12f-ab60-4549-9f2a-e3fe5c8216c8)
 
@@ -9,17 +9,12 @@
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Status do Projeto](#status-do-projeto)
 - [Funcionalidades e Demonstração da Aplicação](#funcionalidades-e-demonstração-da-aplicação)
-- [Desenvolvimento](#desenvolvimento)
-- [Dificuldades Encontradas](#dificuldades-encontradas)
 - [Acesso ao Projeto](#acesso-ao-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Licença](#licença)
-- [Pessoas Contribuidoras e Desenvolvedoras do Projeto](#pessoas-contribuidoras-e-desenvolvedoras-do-projeto)
+
 ---
 
 ## Descrição do Projeto
-
-Sistema de cadastro criado como método de aplicação dos conhecimentos adquiridos na Sprint 1 do Programa de Bolsas Compass UOL  AWS - turma outubro/2024.
 
 O projeto visa o desenvolvimento de um sistema de cadastro bibliotecário para o instituto fictício Gabryelle Duarte, inspirado no sistema utilizado no IFBA (Instituto Federal da Bahia). A página apresenta a interface do colaborador, a bibliotecária fictícia Maria Silva. 
 A aplicação web foi implementada com HTML, Javascript e CSS. 
@@ -28,7 +23,7 @@ A aplicação web foi implementada com HTML, Javascript e CSS.
 ## Status do Projeto
 Concluído
 
-*OBS:Outras funcionalidades podem ser implementadas posteriormente , contudo as exigências para esta versão foram atendidas.*
+*OBS:Outras funcionalidades podem ser implementadas posteriormente , contudo as expectativas para esta versão foram atendidas.*
 
 ## Funcionalidades e Demonstração da Aplicação
 
@@ -56,34 +51,6 @@ https://github.com/user-attachments/assets/13971bbd-26eb-444b-9a54-6ec38afd5117
   
 https://github.com/user-attachments/assets/99f6b438-ea88-45da-a1b5-8f199feb6804
 
-## Desenvolvimento
- Etapas:
- 1. Clonei o repositório;
- 2. Criei a branch;
- 3. Me aprofundei no estudo de Javascript para realização da proposta;
- 4. Fiz o rascunho do projeto em papel , envolvendo apenas 3 páginas;
- 5. Iniciei a construção do projeto no Visual Studio Code, com a página home;
- 6. Desisti da proposta inicial;
- 7. Fiz um novo rascunho e implementei a estrutura de pastas (5 páginas html, cada um com seus respectivos script's e style's);
- 8. Fiz a estrutura html de todas as páginas;
- 9. Fiz a estilização de todas as páginas;
- 10. Pouco a pouco , realizando verificações, fiz a lógica de cada uma das páginas;
- 11. Commit build: Estruturação completa do projeto.
- 12. Editei o README.md;
- 13. Commit docs: Update README.md;
- 14. Corrigi erros dentro das páginas Javascript;
- 15. Testei o sistema;
- 16. Adicionei comentários.
- 17.  Commit fix: solução de problema da visualização de dados em Editar.html;
- 18. Conclusão do README.md;
- 19. Commit docs: Update README.md;
-
-
-## Dificuldades Encontradas
-Ao longo do desenvolvimento do projeto enfrentei algumas dificuldades, especialmente ao conhecimento limitado em HTML e CSS. Por ser a primeira vez trabalhando com essas tecnologias necessitei recorrer a várias fontes de aprendizado, para entender como estruturar o projeto, como também implementar algumas funcionalidades.
-
-Ademais, o receio de modificar algo incorretamente e causar problemas na estrutura do projeto atrasou a realização dos commit's iniciais, mas assitindo a trilha de git e github fui ganhando mais confiança e progredindo no uso do versionamento.
-
 ## Acesso ao projeto
 Para acessar este projeto em seu ambiente local, siga as instruções abaixo:
 
@@ -94,23 +61,7 @@ Para acessar este projeto em seu ambiente local, siga as instruções abaixo:
 4. Visualize o projeto;
 
 ## Tecnologias utilizadas
-1. HTML - Estrutura básica das páginas web.
-2. CSS - Estilização e layout das páginas para uma interface amigável.
-3. JavaScript - Funcionalidade de interação do usuário, manipulação do DOM, e manipulação de dados no localStorage.
-4. LocalStorage - Armazenamento local dos dados dos alunos para persistência de dados entre sessões.
-5. Git - Controle de versão e gerenciamento do código-fonte do projeto.
-<h3>Ferramentas de Desenvolvimento</h3>
 
-1. Editor de Código (como VS Code) - Para escrever e organizar o código HTML, CSS e JavaScript.
-2. Navegador (como Google Chrome) - Para testar e depurar o projeto.
-
-## Licença
-
-Este projeto é atualmente privado e destinado apenas para avaliação interna. Nenhuma licença de uso público foi atribuída.
-
-## Pessoas Contribuidoras e Desenvolvedoras do Projeto
-
-Autora: Gabryelle Beatriz Duarte Moraes
 
 
 
